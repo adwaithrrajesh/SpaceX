@@ -1,0 +1,249 @@
+body{
+    background-color: black; 
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+}
+header{
+    position: fixed;
+    opacity: 1;
+}
+.container{
+    height: 100px;
+    width: 100%;
+}
+.logo {
+    height: 27px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.logo-div {
+    width: 240px;
+    margin-left: 276px;
+    height: 100px;
+}
+.logo-img {
+    height: 26px;
+    padding-left: 27px;
+    padding-top: 25px;
+}
+.rocket-names {
+    text-align: center;
+    margin-top: -80px;
+    margin-left: -188px;
+}
+.rocket-names ul{
+    list-style-type: none;
+}
+.rocket-names ul li{
+    display: inline;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.rocket-names ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    font-size: 13px;
+    position: relative;
+}
+/*underline-animation*/
+.rocket-names ul li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .rocket-names ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  /*  */
+  .rocket-list{
+    margin-left: 637px;
+    width: 765px;
+    margin-top: 10px;
+  }
+.shop {
+    width: 100px;
+    margin-top: -2pc;
+    margin-left: 111pc;
+    position: relative;
+}
+.shop-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    font-size: 13px;
+    position: relative;
+}
+.menu-border {
+    width: 47px;
+    height: 41px;
+    margin-top: -17px;
+    margin-left: 1832px;
+}
+.menu{
+    width: 19px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+}
+.rocket {
+    padding-left: -7px;
+    margin-left: -140px;
+    background-image: url(Images/Homepage_Desktop.webp);
+    background-size: 104%;
+    background-repeat: no-repeat;
+    height: 62pc;
+}
+.upcoming {
+    color: white;
+    height: 31%;
+    width: 28%;
+    font-size: 22px;
+    padding-top: 670px;
+    padding-left: 391px;
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+}
+.starlink-mission {
+    padding-top: -15px;
+    margin-top: 2px;
+}
+.watch-1 {
+    margin-top: -9%;
+    margin-left: -6%;
+}
+.watch-link {
+    border: solid white;
+    color: #fff;
+    padding: 17px 46px;
+    text-decoration: none;
+    margin-left: 24%;
+}
+.watch-link:hover{
+    background-color: #fff;
+    color: black;
+}
+.rocket-2 {
+    background-repeat: no-repeat;
+    height: 62pc;
+    background-size: 2134px;
+    margin-left: -118px;
+    width: 2022px;
+    background-image: url(Images/S20_Chopstick_Stack_Desktop.webp);
+    margin-top: -10px;
+}
+.starship {
+    height: 81px;
+    width: 100%;
+    padding-top: 620px;
+}
+.starship-div{
+    height: 55px;
+    width: 100%;
+}
+.starship-text {
+    margin-left: 304px;
+    width: 23%;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: -2px;
+}
+.button-starship-div{
+    margin-left: 307px;
+    margin-top: 50px;
+}
+.starship-button {
+    border: solid white;
+    height: 100px;
+    width: 50%;
+    padding: 16px 31px;
+    color: white;
+    letter-spacing: -1;
+    text-decoration: none;
+}
+.starship-button:hover{
+    background-color: #fff;
+    color: black;
+}
+.rocket-3 {
+    height: 999px;
+    margin-bottom: -21px;
+    margin-top: 0px;
+    margin-left: -134px;
+    width: 2037px;
+    padding-top: -20px;
+    background-image: url(Images/hls-resized-2.webp);
+    background-size: 107%;
+    background-repeat: no-repeat;
+}
+.nasa-div {
+    height: 583px;
+    width: 100%;
+}
+.nasa-text {
+    height: 161px;
+    width: 32%;
+    margin-left: 434px;
+    font-weight: 700;
+    font-size: 29px;
+    letter-spacing: -2px;
+}
+.nasa-button-div {
+    height: 13px;
+    width: 100%;
+    padding-top: -32px;
+    margin-top: 40px;
+}
+.button-nasa {
+    border: solid white;
+    width: 50%;
+    margin-left: 440px;
+    color: white;
+    padding: 17px 38px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.button-nasa:hover{
+    color: black;
+    background-color: #fff;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 38px;
+}
+.footer-details{
+    padding-top: 30px;
+    text-align: center;
+    padding-right: 118px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: grey;
+    transition: color 1s cubic-bezier(.25,1,.25,1);
+}
+.spacex{
+    color: grey;
+    font-size: 13px;
+}
